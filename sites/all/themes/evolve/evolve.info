@@ -1,0 +1,116 @@
+name = Evolve
+description = "Evolve - Responsive Multi-Purpose Drupal Theme"
+core = 7.x
+base theme = drupalexp
+
+regions[content] = Content
+regions[top] = Top
+regions[call_us] = Call Us
+regions[socials] = Socials
+regions[socials_bottom] = Socials Bottom
+regions[logo] = Logo
+regions[banner] = Banner
+regions[latest-news] = Latest News
+regions[tagline] = Tagline
+regions[breadcrumb] = Breadcrumb
+regions[page_title] = Page Title
+regions[navigation] = Navigation
+regions[locatios] = Locations
+regions[map] = Map
+regions[feature_first] = Feature First
+regions[feature_second] = Feature Second
+regions[feature_third] = Feature Third
+regions[feature_fourth] = Feature Fourth
+regions[latestworks] = Latest Works
+regions[testimonial] = Testimonial
+regions[copyright] = Copyright
+regions[right_sidebar] = Right sidebar
+regions[left_sidebar] = Left sidebar
+
+regions[clients] = Clients
+
+
+regions[content_bottom_second] = Content Bottom Second
+regions[content_bottom_third] = Content Bottom Third
+regions[parallax] = Parallax
+
+regions[content_top]  = Content Top
+regions[content_top2] = Content Top2
+regions[content_top3] = Content Top3
+regions[content_top4] = Content Top4
+regions[content_top5] = Content Top5
+
+
+regions[bottom_first] = Bottom First
+regions[bottom_second] = Bottom Second
+regions[bottom_third] = Bottom Third
+regions[bottom_fourth] = Bottom Fourth
+
+regions[extra_bottom] = Extra Bottom
+regions[extra_bottom2] = Extra Bottom 2
+regions[extra_bottom3] = Extra Bottom 3
+regions[extra_bottom4] = Extra Bottom 4
+regions[extra_bottom5] = Extra Bottom 5
+regions[extra_bottom6] = Extra Bottom 6
+
+
+
+;Extra regions
+regions[user1] = User 1
+regions[user2] = User 2
+regions[user3] = User 3
+regions[user4] = User 4
+regions[user5] = User 5
+regions[user6] = User 6
+regions[user7] = User 7
+regions[user8] = User 8
+regions[user9] = User 9
+regions[user10] = User 10
+regions[user11] = User 11
+regions[user12] = User 12
+regions[user13] = User 13
+regions[user14] = User 14
+regions[user15] = User 15
+regions[user16] = User 16
+regions[user17] = User 17
+regions[user18] = User 18
+regions[user19] = User 19
+regions[user20] = User 20
+
+
+regions[west_footer1] = West Footer 1
+regions[west_footer2] = West Footer 2
+regions[west_footer3] = West Footer 3
+regions[west_footer4] = West Footer 4
+regions[west_footer5] = West Footer 5
+regions[west_footer6] = West Footer 6
+
+
+lessc[] = lessc/style.less
+lessc[] = lessc/style-rtl.less
+lessc[] = lessc/mixin.less
+lessc[] = lessc/topbar.less
+lessc[] = lessc/mainmenu.less
+lessc[] = lessc/breadcrumb.less
+lessc[] = lessc/footer.less
+lessc[] = lessc/portfolio.less
+lessc[] = lessc/blog.less
+lessc[] = lessc/pages.less
+lessc[] = lessc/testimonial.less
+lessc[] = lessc/general.less
+lessc[] = lessc/block.less
+lessc[] = lessc/bxslider.less
+lessc[] = lessc/shortcode.less
+lessc[] = lessc/quicksettings.less
+
+lessc[] = assets/css/jquery-ui-min.less
+lessc[] = assets/css/jquery-ui-structure-min.less
+lessc[] = assets/css/jquery-ui-theme-min.less
+
+
+lessc[] = assets/css/ipad.less
+lessc[] = assets/css/big-mobile.less
+lessc[] = assets/css/mobile.less
+
+scripts[] = assets/scripts/evolve.js
+scripts[] = assets/scripts/jquery-ui.js

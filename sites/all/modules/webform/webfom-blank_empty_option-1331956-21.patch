@@ -1,0 +1,28 @@
+From 8af0f4be7f806822a68f0e3511b4f7aac1c23433 Mon Sep 17 00:00:00 2001
+From: Dan Chadwick <dan899@gmail.com>
+Date: Fri, 8 May 2015 11:21:01 -0400
+Subject: [PATCH] Issue #1331956 by DanChadwick, leendertdb: Allow blank
+ empty_option for core -None- or -Select-.
+
+---
+ components/select.inc |    4 +++-
+ 1 files changed, 3 insertions(+), 1 deletions(-)
+
+diff --git a/components/select.inc b/components/select.inc
+index af6c69e..e1190b5 100644
+--- a/components/select.inc
++++ b/components/select.inc
+@@ -349,7 +349,9 @@ function _webform_render_select($component, $value = NULL, $filter = TRUE, $subm
+   // Drupal 7's adding of the option for us. See @form_process_select().
+   if ($component['extra']['aslist'] && !$component['extra']['multiple'] && $default_value === '') {
+     $element['#empty_value'] = '';
+-    $element['#empty_option'] = $component['extra']['empty_option'];
++    if (strlen($component['extra']['empty_option'])) {
++      $element['#empty_option'] =  $component['extra']['empty_option'];
++    }
+   }
+ 
+   // Set the component options.
+-- 
+1.7.8.msysgit.0
+

@@ -1,0 +1,6 @@
+name = Advisory Themes
+description = "Views plugin for displaying views content in a responsive grid advisor."
+core = 7.x
+
+dependencies[] = views
+dependencies[] = jquery_update

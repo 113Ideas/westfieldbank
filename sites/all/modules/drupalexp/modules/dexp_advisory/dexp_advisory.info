@@ -1,0 +1,10 @@
+name = Dexp Bootstrap Advisory
+description = "Views plugin for displaying views content in a responsive grid advisor."
+core = 7.x
+package = DrupalExp
+
+dependencies[] = views
+dependencies[] = jquery_update
+
+files[] = dexp_advisory.theme.inc
+files[] = dexp_advisory_plugin_style_grid.inc

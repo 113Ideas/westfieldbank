@@ -1,0 +1,40 @@
+<?php
+
+/**
+ * @file
+ * Main file creating responsive theme for advisory
+ */
+ 
+/**
+ * Implements hook_views_api
+ */
+function advisory_themes_views_advisory_views_api() {
+	return array(
+		'api' => 3,
+	);
+}
+ 
+/**
+ * Implements hook_theme
+ */
+function advisory_themes_views_advisory_theme() {
+	return array(
+		'advisory' => array(
+			'template' => 'responsive-advisory',
+		),
+	);
+}
+
+/**
+ * Need to have preprocess functions here because drupal doesn't cache them 
+ * correctly in the theme.inc file.
+ * 
+ * If you would like to override the preprocess functions make sure to look at
+ * the associated function in theme.inc.
+ */
+ 
+include ('theme/advisory_themes_views_advisory.theme.inc');
+
+function template_preprocess_views_advisory(&$vars) {
+  //_views_slideshow_preprocess_views_advisory($vars);
+}

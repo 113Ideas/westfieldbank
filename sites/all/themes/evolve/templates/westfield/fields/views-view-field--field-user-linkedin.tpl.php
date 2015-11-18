@@ -1,0 +1,1 @@
+<a href="<?php print $output; ?>" target="_blank" >Linkedin</a>
