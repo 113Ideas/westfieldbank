@@ -13,7 +13,10 @@
 	        <?php print $fields['field_user_email']->content; ?>
 	    </div>   
 	    <div class="icon-linkedin-adv">
-	       <?php print $fields['field_user_linkedin']->content; ?>
+	      <?php
+        if( isset($fields['field_user_linkedin']) and  $fields['field_user_linkedin']->content!='' )
+            print $fields['field_user_linkedin']->content;
+        ?>
 	    </div>
 	</div>
 </div>

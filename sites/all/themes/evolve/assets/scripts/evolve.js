@@ -1,4 +1,8 @@
 jQuery(document).ready(function($){
+    var pathname = window.location.pathname;
+   if(pathname == '/personal-banking-security'){
+       $('#edit-field-security-section-tid   option[value="356"]').attr("selected", "selected");
+   }
      if( $('#block-block-136').length ){
         $("#block-block-136 #select-login").appendTo('#section-banner #field-features-wrapper');
     }
