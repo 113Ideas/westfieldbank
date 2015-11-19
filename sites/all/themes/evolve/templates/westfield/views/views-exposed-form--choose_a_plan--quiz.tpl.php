@@ -35,8 +35,8 @@ if($_GET['term_node_tid_depth']):
 <div class="headinfo">
     
     <div class="subtitle2">CHECKING <b>ACCOUNT</b> QUIZ</div>
-<h2 class="title1">Still Not Sure Which Checking Account Is Right For You</h2>
-<p class="summary_text">Take this quiz to find the ideal account for you needs</p>
+<h2 class="title1">Still Not Sure Which Checking Account Is Right For You?</h2>
+<p class="summary_text">Take this quiz to find the ideal account for your needs</p>
 </div>
 
     <div id="field-features-wrapper" class="views-exposed-widget views-widget-choose-a-plan">

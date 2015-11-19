@@ -1,4 +1,10 @@
 jQuery(document).ready(function($){
+	//alert('heloddd');
+	
+	/*$('#edit-shs-term-node-tid-depth-select-2').live('change', function(){
+		$('.truck-btn #edit-submit-choose-a-plan').click();
+	});*/
+	
     var pathname = window.location.pathname;
    if(pathname == '/personal-banking-security'){
        $('#edit-field-security-section-tid   option[value="356"]').attr("selected", "selected");
@@ -182,3 +188,14 @@ jQuery(document).ready(function($){
   
 });
 
+/*jQuery(window).load(function() {
+	if(jQuery('#edit-shs-term-node-tid-depth-select-1').length){
+		
+
+		// And now fire change event when the DOM is ready
+		//jQuery('#edit-shs-term-node-tid-depth-select-1').trigger('change');
+		jQueryselect = jQuery('select#edit-shs-term-node-tid-depth-select-1');
+		jQueryselect.val('0').change();
+		jQueryselect.val('96').change();
+	}
+});*/

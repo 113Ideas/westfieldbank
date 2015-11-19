@@ -33,7 +33,12 @@
 		<div class="col-xs-12 col-sm-12 col-md-8 col-md-offset-4">
 			<p>
 				<a  href="<?php print $url1; ?>" class="letsgstar">Let's Get Started!</a> 
-				<a class="learnmore" href="<?php print $url2; ?>">Learn More</a>
+				<?php
+					if(arg(0) != 'business-banking') {
+				?>
+					<a class="learnmore" href="<?php print $url2; ?>">Learn More</a>
+				<?php }
+				?>
 			</p>
 		</div>
 	</div>

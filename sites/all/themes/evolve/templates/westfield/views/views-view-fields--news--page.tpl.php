@@ -7,7 +7,9 @@
           <section class="date">
             <?php print $fields['created']->content; ?>  
           </section>
-          <?php print $fields['field_image']->content; ?> 
+            <a href="<?php print $fields['field_pdf']->content; ?>" target="_blank">
+          <?php print $fields['field_image']->content; ?>
+            </a>
         </div>
       </div>
     </div>
@@ -15,10 +17,8 @@
   <div class="col-sm-12 <?php  if($has_image) print 'col-md-7' ; ?>">   
   	<section class="post-content">
           <header class="meta">
-      		   <ul>
-      				<li>Posted by <?php print $fields['name']->content; ?></li>				
-      		   </ul>
-      		   <h2><?php print $fields['title']->content; ?></h2>
+      		  
+              <h2><a href="<?php print $fields['field_pdf']->content; ?>" target="_blank"><?php print $fields['title']->content; ?></a></h2>
           </header>
            <?php print $fields['body']->content; ?>  
   	</section>	
