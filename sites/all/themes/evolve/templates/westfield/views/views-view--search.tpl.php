@@ -57,14 +57,7 @@
     </div>
   <?php elseif ($empty): ?>
     
-     <?php 
-        
-$url = 'personal-banking'; 
-
-drupal_set_message($url); 
-
-drupal_goto($url); 
-        ?>
+     
     <div class="view-empty">
       <?php print $empty; ?>
     </div>

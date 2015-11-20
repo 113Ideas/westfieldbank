@@ -100,7 +100,7 @@ if( $Cols > 0) $NCols= 12 / $Cols;
                                 
      <?php  if( isset($content['field_show_login']) and $field_show_login[0]['value']==1 ): ?>
             <div class="inside-login">
-                <h4 class="panel-title">Premium Finance Log-in</h4>
+                <h4 class="panel-title">Premium Finance Login</h4>
                 <form id="premium-login">
                     <table>
                         <tr>
