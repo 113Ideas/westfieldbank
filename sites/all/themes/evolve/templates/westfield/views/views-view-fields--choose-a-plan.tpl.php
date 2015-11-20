@@ -34,7 +34,7 @@
 			<p>
 				<a  href="<?php print $url1; ?>" class="letsgstar">Let's Get Started!</a> 
 				<?php
-					if(arg(0) != 'business-banking') {
+					if($_REQUEST['shs_term_node_tid_depth'] != 121) {
 				?>
 					<a class="learnmore" href="<?php print $url2; ?>">Learn More</a>
 				<?php }

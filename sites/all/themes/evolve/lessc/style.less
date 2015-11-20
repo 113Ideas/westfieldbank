@@ -1029,7 +1029,7 @@ h2.field-content{
 
 
 .truck-btn{
-    padding: 50px 0 30px;
+   float: left;
 }
 
 .truck-btn a{
@@ -1048,7 +1048,7 @@ h2.field-content{
     font-style: italic;
     font-weight: bold;
     line-height: 52px;
-    margin-top: 0 !important;
+    margin-top: 8px !important;
     padding: 0 30px;
 }
 
@@ -1257,6 +1257,19 @@ h2.field-content{
     padding-top: 7px;
     float: right;
     width: 60%
+}
+
+#views-exposed-form-choose-a-plan-search .form-text{
+    
+    width: 60%
+}
+#views-exposed-form-choose-a-plan-search .form-item-combine{
+    
+    width: 39%
+}
+
+#views-exposed-form-choose-a-plan-search .views-exposed-widget{
+    margin-bottom: 0;
 }
 
 #views-exposed-form-choose-a-plan-search .text-search{
@@ -1966,6 +1979,9 @@ a.findplan {
 .content-detail-plant tr th{
     padding: 12px 0;
 }
+tr td{
+    padding: 3px 5px ;
+}
 
 .content-detail-plant tbody tr th {
     border-bottom: none;
@@ -2327,7 +2343,9 @@ a.findplan {
 
 .page-node-105 .region-banner .form-type-select select,
 .page-node-106 .region-banner .form-type-select select,
-.page-node-124 .region-banner .form-type-select select{
+.page-node-124 .region-banner .form-type-select select,
+.page-node-106 .region-banner .form-item-shs-term-node-tid-depth select,
+.page-node-124 .region-banner .form-item-shs-term-node-tid-depth select{
     background-color: rgb(171,105,40) !important;
     background-image: url('../images/arrowdown2.gif')!important;
     border: none !important;
@@ -2345,7 +2363,7 @@ a.findplan {
 #views-exposed-form-choose-a-plan-business .headinfo,
 #views-exposed-form-choose-a-plan-business .truck-btn,
 #views-exposed-form-choose-a-plan-nodes .headinfo{
-    display:none
+    //display:none
 }
 
 #section-content-top-2,
@@ -2591,7 +2609,10 @@ a.findplan {
     right: 55px;
 }
 
-#block-views-news-block-2 .views-field {
+#block-views-news-block-2 .views-field,
+#block-views-news-block-2 .field-content,
+#block-views-news-block-2 .jcarousel-item{
+    color:#FFF !important;
     text-align: left !important
 }
 
@@ -2600,10 +2621,14 @@ a.findplan {
     padding-top: 20px;
 }
 #block-views-news-block-2 .view-header .lnews-title,
-#block-views-news-block-2 .views-field a{
+#block-views-news-block-2 a{
     color:#FFF !important;
 }
 
+
+#block-views-news-block-2 h3 {
+    text-align: left !important
+}
 
 .page-node-181 .btn {
     background: #aa6927;
@@ -2663,7 +2688,7 @@ a.search-btn-toggle{
     width: 16px
 }
 
-#block-block-186{
+.region-socials .content{
     color: #fff;
     display:inline-block;
     font-size: 15px;
@@ -2672,11 +2697,15 @@ a.search-btn-toggle{
     
 }
 
-#block-block-186 a{
+.region-socials .content a{
     color: #fff !important;
     font-size: 15px;
     font-weight: bold;;
     
+}
+
+.region-socials .content p {
+    margin: 0 0 8px;
 }
 
 #views-exposed-form-choose-a-plan-search{
@@ -2925,7 +2954,16 @@ display: none;
     width: 100%;
 }
 
-
+.view-testimonials .views-row{
+    margin-bottom: 15px;
+}
+.view-testimonials .views-row h3 {
+    margin-bottom: 25px;
+    margin-top: 35px;
+}
+.view-testimonials .views-row .block-testimonial-banner-content {
+    margin-bottom: 25px;
+}
 /* medium desktop*/
 
 @media screen and (max-width: 1180px) {
@@ -3244,3 +3282,53 @@ display: none;
 	}
 }
 
+
+#edit-shs-term-node-tid-depth-select-1,
+#edit-shs-term-node-tid-depth-select-4,
+.page-node-106 #edit-shs-term-node-tid-depth-select-3,
+.page-node-124 #edit-shs-term-node-tid-depth-select-3,
+.page-node-106 .truck-btn,
+.page-node-124 .truck-btn {
+	display: none!important;
+}
+.page-node-106 .form-item-shs-term-node-tid-depth,
+.page-node-124 .form-item-shs-term-node-tid-depth{
+	 float: none;
+}
+.page-node-106 #field-features-wrapper,
+.page-node-124 #field-features-wrapper,
+.page-node-105 #field-features-wrapper{
+    display: block;
+    margin: 12% 0 0 0;
+}
+
+.form-item-shs-term-node-tid-depth {
+	float:left;
+}
+
+#field-features-wrapper {
+	display: table;
+    margin: 0 auto 50px;
+}
+.taxonomy-des {
+	margin-bottom: 20px;
+    text-align: center;
+}
+.page-node-105 .even.jcarousel-item.jcarousel-item-horizontal.jcarousel-item-2 .inside-border-carousel a.btn-carousel-home{
+margin-top: 45px;
+}
+.view-choose-a-plan .view-empty{
+	text-align: center;
+}
+.view-user-by-branch .pager{
+	margin-bottom: 30px;
+}
+.view-news .views-field-title{
+	margin-top: 20px;
+}
+.node-type-plans .truck-btn{
+	float: none;
+}
+.headinfo {
+display: none;
+}

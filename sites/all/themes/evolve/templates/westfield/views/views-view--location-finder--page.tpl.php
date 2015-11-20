@@ -57,14 +57,6 @@
     </div>
   <?php elseif ($empty): ?>
     <div class="view-empty">
-        <?php 
-        
-$url = 'locations'; 
-
-drupal_set_message($url); 
-
-drupal_goto($url); 
-        ?>
       <?php print $empty; ?>
     </div>
   <?php endif; ?>
